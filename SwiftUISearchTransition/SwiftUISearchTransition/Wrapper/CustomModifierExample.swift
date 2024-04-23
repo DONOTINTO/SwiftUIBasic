@@ -13,8 +13,8 @@ struct PointBackground: ViewModifier {
         content
             .font(.title)
             .padding(10)
-            .background(Color.red)
-            .foreground(.red)
+            .background(Color.yellow)
+            .foreground(.black)
             .clipShape(.capsule)
     }
 }

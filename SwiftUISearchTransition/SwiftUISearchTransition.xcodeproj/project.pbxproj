@@ -13,6 +13,10 @@
 		AC3265222BD6060300531BC1 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3265212BD6060300531BC1 /* TestView.swift */; };
 		AC3265242BD606EC00531BC1 /* ButtonWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3265232BD606EC00531BC1 /* ButtonWrapper.swift */; };
 		AC3265262BD6091D00531BC1 /* NavigationBarWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3265252BD6091D00531BC1 /* NavigationBarWrapper.swift */; };
+		AC32652B2BD7441600531BC1 /* PickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32652A2BD7441600531BC1 /* PickerView.swift */; };
+		AC32652D2BD747FE00531BC1 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32652C2BD747FE00531BC1 /* SheetView.swift */; };
+		AC32652F2BD7523400531BC1 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32652E2BD7523400531BC1 /* NavigationLazyView.swift */; };
+		AC3265312BD7555700531BC1 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3265302BD7555700531BC1 /* NumberView.swift */; };
 		ACF18F712BD1FB9D002C0548 /* SwiftUISearchTransitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF18F702BD1FB9D002C0548 /* SwiftUISearchTransitionApp.swift */; };
 		ACF18F732BD1FB9D002C0548 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF18F722BD1FB9D002C0548 /* ContentView.swift */; };
 		ACF18F752BD1FB9F002C0548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF18F742BD1FB9F002C0548 /* Assets.xcassets */; };
@@ -27,6 +31,10 @@
 		AC3265212BD6060300531BC1 /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 		AC3265232BD606EC00531BC1 /* ButtonWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWrapper.swift; sourceTree = "<group>"; };
 		AC3265252BD6091D00531BC1 /* NavigationBarWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarWrapper.swift; sourceTree = "<group>"; };
+		AC32652A2BD7441600531BC1 /* PickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PickerView.swift; path = ../../../../../Documents/PickerView.swift; sourceTree = "<group>"; };
+		AC32652C2BD747FE00531BC1 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SheetView.swift; path = ../../../../../Documents/SheetView.swift; sourceTree = "<group>"; };
+		AC32652E2BD7523400531BC1 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationLazyView.swift; path = ../../../../../Documents/NavigationLazyView.swift; sourceTree = "<group>"; };
+		AC3265302BD7555700531BC1 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NumberView.swift; path = ../../../../../Documents/NumberView.swift; sourceTree = "<group>"; };
 		ACF18F6D2BD1FB9D002C0548 /* SwiftUISearchTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISearchTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF18F702BD1FB9D002C0548 /* SwiftUISearchTransitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISearchTransitionApp.swift; sourceTree = "<group>"; };
 		ACF18F722BD1FB9D002C0548 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,8 +61,19 @@
 				AC32651C2BD6028200531BC1 /* CustomModifierExample.swift */,
 				AC3265232BD606EC00531BC1 /* ButtonWrapper.swift */,
 				AC3265252BD6091D00531BC1 /* NavigationBarWrapper.swift */,
+				AC32652E2BD7523400531BC1 /* NavigationLazyView.swift */,
 			);
 			path = Wrapper;
+			sourceTree = "<group>";
+		};
+		AC3265272BD743C600531BC1 /* Wallet */ = {
+			isa = PBXGroup;
+			children = (
+				AC32652A2BD7441600531BC1 /* PickerView.swift */,
+				AC32652C2BD747FE00531BC1 /* SheetView.swift */,
+				AC3265302BD7555700531BC1 /* NumberView.swift */,
+			);
+			path = Wallet;
 			sourceTree = "<group>";
 		};
 		ACF18F642BD1FB9D002C0548 = {
@@ -76,6 +95,7 @@
 		ACF18F6F2BD1FB9D002C0548 /* SwiftUISearchTransition */ = {
 			isa = PBXGroup;
 			children = (
+				AC3265272BD743C600531BC1 /* Wallet */,
 				AC32651E2BD603A500531BC1 /* Wrapper */,
 				ACF18F702BD1FB9D002C0548 /* SwiftUISearchTransitionApp.swift */,
 				ACF18F722BD1FB9D002C0548 /* ContentView.swift */,
@@ -166,14 +186,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC3265312BD7555700531BC1 /* NumberView.swift in Sources */,
 				AC3265222BD6060300531BC1 /* TestView.swift in Sources */,
 				AC32651D2BD6028200531BC1 /* CustomModifierExample.swift in Sources */,
+				AC32652F2BD7523400531BC1 /* NavigationLazyView.swift in Sources */,
 				AC3265262BD6091D00531BC1 /* NavigationBarWrapper.swift in Sources */,
 				ACF18F732BD1FB9D002C0548 /* ContentView.swift in Sources */,
 				AC3265242BD606EC00531BC1 /* ButtonWrapper.swift in Sources */,
+				AC32652D2BD747FE00531BC1 /* SheetView.swift in Sources */,
 				AC3265202BD603CD00531BC1 /* ForegroundWrapper.swift in Sources */,
 				AC32651B2BD5F2D900531BC1 /* HomeView.swift in Sources */,
 				ACF18F7F2BD20FA7002C0548 /* SearchView.swift in Sources */,
+				AC32652B2BD7441600531BC1 /* PickerView.swift in Sources */,
 				ACF18F712BD1FB9D002C0548 /* SwiftUISearchTransitionApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

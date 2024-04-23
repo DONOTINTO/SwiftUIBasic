@@ -35,7 +35,7 @@ struct HomeView: View {
             LazyHStack {
                 ForEach(0 ..< 9) { _ in
                     NavigationLink {
-                        HomeDetailView()
+                        NavigationLazyView(HomeView())
                     } label: {
                         posterImage
                     }
