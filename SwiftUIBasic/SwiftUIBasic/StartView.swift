@@ -21,6 +21,7 @@ struct StartView: View {
                     Image(systemName: "star.fill")
                 }
         }
+        .tabViewStyle(.page(indexDisplayMode: .always))
     }
 }
 

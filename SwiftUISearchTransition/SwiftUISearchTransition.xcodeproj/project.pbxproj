@@ -17,6 +17,13 @@
 		AC32652D2BD747FE00531BC1 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32652C2BD747FE00531BC1 /* SheetView.swift */; };
 		AC32652F2BD7523400531BC1 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32652E2BD7523400531BC1 /* NavigationLazyView.swift */; };
 		AC3265312BD7555700531BC1 /* NumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3265302BD7555700531BC1 /* NumberView.swift */; };
+		AC3265392BD7715A00531BC1 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3265372BD7715A00531BC1 /* Banner.swift */; };
+		AC32653A2BD7715A00531BC1 /* Money.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3265382BD7715A00531BC1 /* Money.swift */; };
+		AC32653C2BD772A900531BC1 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32653B2BD772A800531BC1 /* HistoryView.swift */; };
+		AC32653E2BD788D100531BC1 /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC32653D2BD788D100531BC1 /* WalletView.swift */; };
+		ACBD682B2BDB37110077C6FC /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD682A2BDB37110077C6FC /* ListView.swift */; };
+		ACBD682D2BDB4B3F0077C6FC /* CounterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD682C2BDB4B3F0077C6FC /* CounterView.swift */; };
+		ACBD682F2BDB54890077C6FC /* MyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBD682E2BDB54890077C6FC /* MyWebView.swift */; };
 		ACF18F712BD1FB9D002C0548 /* SwiftUISearchTransitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF18F702BD1FB9D002C0548 /* SwiftUISearchTransitionApp.swift */; };
 		ACF18F732BD1FB9D002C0548 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF18F722BD1FB9D002C0548 /* ContentView.swift */; };
 		ACF18F752BD1FB9F002C0548 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACF18F742BD1FB9F002C0548 /* Assets.xcassets */; };
@@ -35,6 +42,13 @@
 		AC32652C2BD747FE00531BC1 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SheetView.swift; path = ../../../../../Documents/SheetView.swift; sourceTree = "<group>"; };
 		AC32652E2BD7523400531BC1 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationLazyView.swift; path = ../../../../../Documents/NavigationLazyView.swift; sourceTree = "<group>"; };
 		AC3265302BD7555700531BC1 /* NumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NumberView.swift; path = ../../../../../Documents/NumberView.swift; sourceTree = "<group>"; };
+		AC3265372BD7715A00531BC1 /* Banner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		AC3265382BD7715A00531BC1 /* Money.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Money.swift; sourceTree = "<group>"; };
+		AC32653B2BD772A800531BC1 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
+		AC32653D2BD788D100531BC1 /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+		ACBD682A2BDB37110077C6FC /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		ACBD682C2BDB4B3F0077C6FC /* CounterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterView.swift; sourceTree = "<group>"; };
+		ACBD682E2BDB54890077C6FC /* MyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyWebView.swift; sourceTree = "<group>"; };
 		ACF18F6D2BD1FB9D002C0548 /* SwiftUISearchTransition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUISearchTransition.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACF18F702BD1FB9D002C0548 /* SwiftUISearchTransitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISearchTransitionApp.swift; sourceTree = "<group>"; };
 		ACF18F722BD1FB9D002C0548 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -72,6 +86,13 @@
 				AC32652A2BD7441600531BC1 /* PickerView.swift */,
 				AC32652C2BD747FE00531BC1 /* SheetView.swift */,
 				AC3265302BD7555700531BC1 /* NumberView.swift */,
+				AC3265372BD7715A00531BC1 /* Banner.swift */,
+				AC3265382BD7715A00531BC1 /* Money.swift */,
+				AC32653B2BD772A800531BC1 /* HistoryView.swift */,
+				AC32653D2BD788D100531BC1 /* WalletView.swift */,
+				ACBD682A2BDB37110077C6FC /* ListView.swift */,
+				ACBD682C2BDB4B3F0077C6FC /* CounterView.swift */,
+				ACBD682E2BDB54890077C6FC /* MyWebView.swift */,
 			);
 			path = Wallet;
 			sourceTree = "<group>";
@@ -192,11 +213,18 @@
 				AC32652F2BD7523400531BC1 /* NavigationLazyView.swift in Sources */,
 				AC3265262BD6091D00531BC1 /* NavigationBarWrapper.swift in Sources */,
 				ACF18F732BD1FB9D002C0548 /* ContentView.swift in Sources */,
+				AC32653A2BD7715A00531BC1 /* Money.swift in Sources */,
 				AC3265242BD606EC00531BC1 /* ButtonWrapper.swift in Sources */,
+				ACBD682D2BDB4B3F0077C6FC /* CounterView.swift in Sources */,
+				ACBD682B2BDB37110077C6FC /* ListView.swift in Sources */,
 				AC32652D2BD747FE00531BC1 /* SheetView.swift in Sources */,
+				AC32653C2BD772A900531BC1 /* HistoryView.swift in Sources */,
 				AC3265202BD603CD00531BC1 /* ForegroundWrapper.swift in Sources */,
+				AC32653E2BD788D100531BC1 /* WalletView.swift in Sources */,
 				AC32651B2BD5F2D900531BC1 /* HomeView.swift in Sources */,
 				ACF18F7F2BD20FA7002C0548 /* SearchView.swift in Sources */,
+				AC3265392BD7715A00531BC1 /* Banner.swift in Sources */,
+				ACBD682F2BDB54890077C6FC /* MyWebView.swift in Sources */,
 				AC32652B2BD7441600531BC1 /* PickerView.swift in Sources */,
 				ACF18F712BD1FB9D002C0548 /* SwiftUISearchTransitionApp.swift in Sources */,
 			);
